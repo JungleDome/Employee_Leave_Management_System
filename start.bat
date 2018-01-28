@@ -1,0 +1,1 @@
+java -jar .\ELMS\dist\ELMS.jar

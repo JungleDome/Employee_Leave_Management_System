@@ -1,0 +1,161 @@
+[[
+  {
+    "ID": 1,
+    "question": "Question 1",
+    "answer": "Answer 1"
+  },
+  {
+    "ID": 2,
+    "question": "Question 2",
+    "answer": "Answer 2"
+  }
+],[
+  {
+    "ID": 1,
+    "title": "Labour Day",
+    "date": "2017-05-01",
+    "type": "Public Holiday",
+    "repeat": true
+  }
+],[
+  {
+    "ID": 1,
+    "name": "Training",
+    "initialValue": 5,
+    "amountLeft": 0,
+    "maxCarryForward": 5,
+    "amountEarnedPerYear": 5
+  },
+  {
+    "ID": 2,
+    "name": "Personal",
+    "initialValue": 5,
+    "amountLeft": 0,
+    "maxCarryForward": 4,
+    "amountEarnedPerYear": 3
+  },
+  {
+    "ID": 3,
+    "name": "Medical",
+    "initialValue": 4,
+    "amountLeft": 0,
+    "maxCarryForward": 4,
+    "amountEarnedPerYear": 4
+  }
+],[
+  {
+    "ID": 1,
+    "username": "Admin",
+    "password": "Admin",
+    "position": "HR",
+    "lp": null
+  },
+  {
+    "ID": 2,
+    "username": "Lecturer",
+    "password": "Lecturer1",
+    "position": "L",
+    "lp": [
+      {
+        "ID": 1,
+        "name": "Training",
+        "initialValue": 0,
+        "amountLeft": 6,
+        "maxCarryForward": 5,
+        "amountEarnedPerYear": 5
+      },
+      {
+        "ID": 2,
+        "name": "Personal",
+        "initialValue": 0,
+        "amountLeft": 5,
+        "maxCarryForward": 4,
+        "amountEarnedPerYear": 3
+      },
+      {
+        "ID": 3,
+        "name": "Medical",
+        "initialValue": 0,
+        "amountLeft": 4,
+        "maxCarryForward": 4,
+        "amountEarnedPerYear": 4
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "username": "AL",
+    "password": "AL",
+    "position": "AL",
+    "lp": [
+      {
+        "ID": 1,
+        "name": "Training",
+        "initialValue": 0,
+        "amountLeft": 5,
+        "maxCarryForward": 5,
+        "amountEarnedPerYear": 5
+      },
+      {
+        "ID": 2,
+        "name": "Personal",
+        "initialValue": 0,
+        "amountLeft": 5,
+        "maxCarryForward": 4,
+        "amountEarnedPerYear": 3
+      },
+      {
+        "ID": 3,
+        "name": "Medical",
+        "initialValue": 0,
+        "amountLeft": 4,
+        "maxCarryForward": 4,
+        "amountEarnedPerYear": 4
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "username": "l",
+    "password": "l",
+    "position": "L",
+    "lp": [
+      {
+        "ID": 1,
+        "name": "Training",
+        "initialValue": 0,
+        "amountLeft": 5,
+        "maxCarryForward": 5,
+        "amountEarnedPerYear": 5
+      },
+      {
+        "ID": 2,
+        "name": "Personal",
+        "initialValue": 0,
+        "amountLeft": 5,
+        "maxCarryForward": 4,
+        "amountEarnedPerYear": 3
+      },
+      {
+        "ID": 3,
+        "name": "Medical",
+        "initialValue": 0,
+        "amountLeft": 4,
+        "maxCarryForward": 4,
+        "amountEarnedPerYear": 4
+      }
+    ]
+  }
+],[
+  {
+    "ID": 2,
+    "title": "Leave 2",
+    "type": 2,
+    "startDate": "2017-12-02",
+    "endDate": "2017-12-09",
+    "duration": 8,
+    "status": "Rejected",
+    "description": "No desc",
+    "userID": 2
+  }
+]]
